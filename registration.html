@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="templates/Registration.css" />
+    <script src="registration.js">  
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="registration.php" id="form" method="POST" onsubmit="return Validation();">  
+            <div class="form_input">
+                <h1>Register</h1>
+            </div>  
+            <div class="form_input">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="form_input">
+                <input type="username" name="username" id="username" placeholder="Username">
+            </div>
+            <div class="form_input">
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="form_input">
+                <input type="submit" id="register" value="Register" class="btn-login"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
